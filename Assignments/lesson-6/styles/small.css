@@ -1,0 +1,186 @@
+@media only screen and (max-width: 37.5em) {
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    
+    }
+header h1 {
+    float: right;
+    color: #2e75b6;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 160px
+}
+header img {
+    width: 20%;
+    float: left;
+    margin: 5px
+}
+header .subheading {
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+nav {
+    }
+nav button {
+    float: right;
+    margin: 10px
+}
+nav ul {
+    display: none;    
+}
+* {margin:0}
+header { background-color: #777; }
+h1 { margin-left: .75rem;   padding: .5rem; }
+.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
+
+.navigation { list-style: none; padding-left: 0; }
+.navigation li { display: none; }
+
+/* When the responsive class is added to the unordered list on hamburger button click 
+placed in a media query in order to accomodate the toggle when in wider view*/
+@media only screen and (max-width: 37.5em) {
+    .navigation.responsive { position: relative; }
+    .navigation.responsive li { background-color: #eee; display: block; width: 100%; margin: 2px 0; border: 1px solid #ddd; }
+    .navigation.responsive li a {   padding: 1rem; text-align: center;  display: block; text-decoration:none; }
+    .navigation.responsive li a:hover { background-color: #ddd; }
+}
+
+/* The following can be used in lieu of a button with a HTML entity which may not be dispalyed correctly in all browsers - or a SVG option is good - button size issue
+.hamburger { 
+    content: "";
+    position: absolute;
+    right: 1.5rem; top: 1.8rem;
+    display: block;
+    width: 1.25rem; height: 0;
+    -webkit-box-shadow: 1px 10px 1px 1px #eee,1px 16px 1px 1px #eee,1px 22px 1px 1px #eee;
+    box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
+}*/
+
+
+@media only screen and (min-width: 37.5em) {
+    header, nav {   margin: 0 auto; max-width: 600px;   }
+    h1 { text-align: center; }
+    .hamburger { display: none; }
+    .navigation {   background-color: #333; overflow: hidden;   text-align: center; }
+    .navigation li { display: inline-block; margin-left: .25rem; }
+    .navigation a { display: block; color: #eee;    padding: .5rem; text-align: center; text-decoration: none;}
+    .navigation a:hover {   color: #000; background-color: #777;    }
+}
+
+main {
+    clear: both;
+    }
+main h2 {
+    color: #2e75b6;
+    text-align: center;
+    font-size: 50px;
+    margin: 5px
+    
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure#Img { 
+    width: 100%;
+    float: left;
+    margin: 0 0 0 2%;
+    }
+    main figure#Img img {
+        width: 100%;
+    }
+
+section {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+picture{
+    float: right;
+    margin-right: 150px;
+    margin-left: 0px;
+}
+
+.highlow{
+    margin-top: 90px;
+}
+.highlow>p {
+    display: inline;
+    margin: 10px;
+}
+
+.forecast {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 10px;;
+}
+article>h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+article>p {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    
+}
+footer aside {
+    background-color: #9dc3e6;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+footer aside p {
+    margin: 5px;
+}
+footer aside h3 {
+    margin: 5px;
+}
+footer>p {
+    background-color: #2e75b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 100%;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+}

@@ -1,0 +1,2 @@
+[2/17/2018, 10:26:45 PM] layer "200x97 Franklin.jpeg, 500x242 Franklin.jpeg, 800x388 Franklin.jpeg ": Duplicate path: Franklin.jpeg
+[2/17/2018, 10:26:45 PM] layer "200x97 Franklin.jpeg, 500x242 Franklin.jpeg, 800x388 Franklin.jpeg ": Duplicate path: Franklin.jpeg
