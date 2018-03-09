@@ -1,0 +1,97 @@
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: #CBFF48;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+  font-family: sans-serif;
+}
+
+/* header styles */
+
+h1 {
+    background-color: #5F7A87;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    margin-bottom: 6px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 5px 5px 20px 5px #1C1C1C;
+    text-transform: capitalize;
+  font-size: 4rem;
+  text-align: center;
+    
+}
+
+header p {
+    background-color: #293B47;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 5px 5px 20px 5px #1C1C1C;
+  font-size: 4rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-align: center;
+    margin: 0px;
+}
+
+/* section styles */
+
+section article {
+    background-color: #293B47;
+    border: 4px dotted #5F7A87;
+    margin: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 5px 5px 20px 5px #1C1C1C;
+    height: 350px;
+    
+  width: 27.3%;
+  float: left;
+}
+
+section p {
+    color: #CBFF48;
+    text-align: center;
+  margin: 5px 0;
+}
+
+section ul {
+    color: #CBFF48;
+    text-align: center;
+    border-top: 2px solid #CBFF48;
+    padding: 20px;
+    list-style-type: square;
+    list-style-position: outside;
+  margin: 20px;
+}
+
+h2 {
+    
+  font-size: 2rem;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
