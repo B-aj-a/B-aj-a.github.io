@@ -1,0 +1,227 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+  
+  section.forecast { }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+    
+    * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    
+    max-width: 1024px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {}
+header h1 {
+    float: left;
+    color: #2e75b6;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin: 5px;
+    margin-top: 20px;
+}
+header img {
+    float: left;
+    margin: 5px
+}
+header .subheading {
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e75b6;
+    clear: both;
+    }
+    
+nav button {
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+
+}
+nav ul li {
+     display: inline-block;
+     padding: 10px .2em 10px .2em;
+    }
+    
+nav ul li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+nav ul li.active a {
+        color: #fff;
+    }
+nav ul li a:hover {
+    color: #ffff00;
+    }
+
+main {}
+main h2 {
+    color: #2e75b6;
+    text-align: center;
+    font-size: 50px;
+    margin: 5px
+    
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure#Img { 
+    width: 50%;
+    clear: both;;
+    margin: 0 0 0 2%;
+    }
+    main figure#Img img {
+        width: 100%;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-column-gap: 5px;
+    }
+
+section .forecast {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    clear: both;
+    width: 48%;
+}
+    
+    section h3 {
+        margin: 0px;
+    }
+
+picture{
+    float: right;
+    margin-right: 115px;
+    margin-left: 0px;
+}
+
+.highlow{
+    margin-top: 90px;
+}
+.highlow>p {
+    display: inline;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+    .conditions>p {
+    display: inline;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+    .forecast>h3 {
+        margin: 20px;
+    }
+
+.forecast {
+    background-color: #d7d7d7;
+    padding: 10px;
+    width: 100%;
+    clear: both;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+    
+    table {
+        margin-left: auto;
+    margin-right: auto;
+    }
+    
+    th {
+        background-color: #2e75b6;
+        color: white;
+        padding: 5px;
+    }
+    
+    td {
+        background-color: #9dc3e6;
+        padding: 5px;
+    }
+
+article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 50%; /* fill the page in the small/phone view */
+  margin: 5px;
+    float: right;
+}
+    
+article>h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 20px;
+    clear: both;
+}
+
+    p {
+        width: 47%;
+        font-size: 17px;
+    }
+
+article>p {
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    
+}
+footer aside {
+    background-color: #9dc3e6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+footer aside p {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer aside h3 {
+    margin: 5px;
+}
+footer>p {
+    background-color: #2e75b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+}
+
+}

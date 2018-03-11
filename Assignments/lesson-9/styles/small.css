@@ -1,0 +1,179 @@
+@media only screen and (max-width: 37.5em) {
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    
+    }
+header h1 {
+    float: right;
+    color: #2e75b6;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 160px
+}
+header img {
+    width: 20%;
+    float: left;
+    margin: 5px
+}
+header .subheading {
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+
+nav button {
+    margin: 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #000;
+}
+    
+nav {
+    background-color: #2e75b6;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: solid rgba(0,0,0,0.3)
+}
+    
+    nav ul li.active a {
+        color: #fff;
+    }
+nav ul li a:hover {
+    color: #ffff00;
+    }
+    nav ul.hide{
+        display: none;
+    }
+
+main {
+    clear: both;
+    }
+    
+main h2 {
+    color: #2e75b6;
+    text-align: center;
+    font-size: 50px;
+    margin: 5px
+    
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure#Img { 
+    width: 100%;
+    float: left;
+    margin: 0 0 0 2%;
+    }
+    main figure#Img img {
+        width: 100%;
+    }
+
+section {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+picture{
+    float: right;
+    margin-right: 150px;
+    margin-left: 0px;
+}
+
+.highlow{
+    margin-top: 90px;
+}
+.highlow>p {
+    display: inline;
+    margin: 10px;
+}
+
+.forecast {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 10px;;
+}
+article>h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+article>p {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    
+}
+footer aside {
+    background-color: #9dc3e6;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+footer aside p {
+    margin: 5px;
+}
+footer aside h3 {
+    margin: 5px;
+}
+footer>p {
+    background-color: #2e75b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 100%;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+    
+    
+}
