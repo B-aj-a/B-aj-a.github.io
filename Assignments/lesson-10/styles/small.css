@@ -1,0 +1,346 @@
+@media only screen and (max-width: 37.5em) {
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*----------Header----------*/
+    
+    header {
+        width: 100%;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+header h1 {
+    float: left;
+    color: #2e75b6;
+    width: 70%;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+    
+header img {
+    float: left;
+    width: 20%;
+}
+    
+header .subheading {
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 160px;
+}
+    
+/*----------Nav----------*/
+
+nav button {
+    margin: 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #000;
+}
+    
+nav {
+    background-color: #2e75b6;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: solid rgba(0,0,0,0.3)
+}
+    
+    nav ul li.active a {
+        color: #fff;
+    }
+nav ul li a:hover {
+    color: #ffff00;
+    }
+    nav ul.hide{
+        display: none;
+    }
+
+/*----------MainIndex----------*/
+    
+    .weatherstory {
+        text-align: center;
+        background-color: #d7d7d7;
+        padding: 5px;
+        border-bottom: 2px solid #2e75b6;
+        height: 600px;
+    }
+    
+    .weatherstory p {
+        float: left;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .weatherstory img {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .weatherstory h2 {
+        color: #2e75b6;
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .towns {
+        text-align: center;
+        width: 100%;
+        height: 900px;
+        margin-left: 20px;
+    }
+    
+    .data {
+        float: left;
+        width: 50%;
+    }
+    
+    .data article {
+        margin-top: 90px;
+    }
+    
+    .towns h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+        width: 100%;    
+    }
+    
+    .img {
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .img img {
+        width: 85%;
+        float: left;
+        margin-top: 140px;
+        
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+/*----------Main----------*/
+    
+    .title {
+        text-align: center;
+        background-color: #d7d7d7;
+        padding: 5px;
+        border-bottom: 2px solid #2e75b6;
+    }
+    
+    .title h2 {
+        color: #2e75b6;
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .title img {
+        width: 70%;
+        
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .weatherinfo {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 580px;
+        text-align: center;
+    }
+    
+    .weatherinfo h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    
+    .weatherinfo h4 {
+        font-size: 20px;
+    }
+    
+    .info {
+        float: left;
+        width: 100%;
+    }
+    
+    .windspeed {
+        float: left;
+        width: 100%;
+    }
+    
+    .windspeed input {
+        margin-bottom: 10px;
+    }
+    
+    .windspeed button {
+        margin-bottom: 10px;
+    }
+    
+    .forecast {
+        text-align: center;
+        margin-top: 40px;
+        background-color: #d7d7d7;
+        padding: 5px;
+        border-top: 2px solid #2e75b6;
+        border-bottom: 2px solid #2e75b6;
+    }
+    
+    .forecast h3{
+        font-size: 40px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        
+    }
+    
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    th {
+        background-color: #2e75b6;
+        color: white;
+        padding: 5px;
+    }
+    
+    td {
+        background-color: #9dc3e6;
+        padding: 5px;
+    }
+
+    .article {
+        text-align: center;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 690px;
+    }
+    
+    .article p {
+        float: left;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .article img {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .article h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    
+/*----------Gallery----------*/
+    
+    #gtitle h1 {
+    font-size: 60px;
+    color: #2e75b6;
+    background-color: #d7d7d7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 80px;
+    border-bottom: 2px solid #2e75b6;
+    text-align: center;
+}
+    
+/*----------StormForm----------*/
+    
+    #stitle h1 {
+    font-size: 50px;
+    color: #2e75b6;
+    background-color: #d7d7d7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 80px;
+    border-bottom: 2px solid #2e75b6; 
+}
+    
+/*----------Footer----------*/
+
+footer {
+    clear: both;
+    border-top: 2px solid #2e75b6;
+    
+}
+footer aside {
+    background-color: #9dc3e6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+footer aside p {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer aside h3 {
+    margin: 5px;
+}
+footer>p {
+    background-color: #2e75b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+    
+    
+}

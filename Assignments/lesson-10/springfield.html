@@ -28,30 +28,34 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="nav" class="hide">
     	<li><a href="index.html">Home</a></li>
-    	<li class="active"><a href="franklin.html">Franklin</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
     	<li><a href="greenville.html">Greenville</a></li>
-    	<li><a href="springfield.html">Springfield</a></li>
+    	<li class="active"><a href="springfield.html">Springfield</a></li>
     	<li><a href="stormcenter.html">Storm Center</a></li>
     	<li><a href="gallery.html">Gallery</a></li>
-    </ul>
+    </ul>	
       
   </nav>
     
   <main>
+      
+      <div class='title'>
  
-        <h2>The City of Franklin</h2>
+        <h2>The City of Springfield</h2>
       
     
         <figure id='Img'>
-          <img src="images/franklin-original.jpeg" alt="Sunny day in the field" sizes="50vw"
-            srcset="images/franklin-200.jpg 200w,
-                    images/franklin-500.jpg 500w,
-                    images/franklin-800.jpg 800w"/>
+          <img src="images/Springfield.jpeg" alt="The City of Springfield"/>
         </figure>
+          
+    </div>
     
-    <section class="weather">
+    <div class='weatherinfo'>
+        
+        <h3>Weather Information</h3>
+        
      <div class="info">
-         <h3>Weather summary for <span id='place'>City, State</span></h3>
+         <h4>Weather summary for <span id='place'>City, State</span></h4>
          
           <p> Current Weather: <span id='currentWeather'>snow</span></p>
         
@@ -66,21 +70,32 @@
     </div>
         
     <div class='windspeed'>
-             <h3> Wind Speed</h3>
+        
+             <h4>Wind Chill</h4>
+        
                 Tempurature: <input type="text" id="temp" size='10'>
+        
                 <br>
+        
                 Wind Speed: <input type="text" id="windSpeed" size='10'>
+        
                 <br>
+        
                 <button type="button" onclick="doInputOutput()">Calculate</button>
+        
                 <br>
+        
                 <div id="output">Calculate Wind Chill</div>
 
     </div>
         
-    </section>
+    </div>
         
-    <section class="forecast">
+        
+    <div class="forecast">
+        
       <h3>10 Day Forecast</h3>
+        
       <table>
 	    <thead>
           <tr>
@@ -111,16 +126,17 @@
           </tr>
 		</tbody>
       </table>
-    </section>
+        
+    </div>
       
-    <article>
-      <h3>Franklin Breaks Record</h3>	
+    <div class='article'>
+      <h3>Springfield Breaks Record</h3>	
       <p class="town-article">
         Lorem ipsum dolor sit amet, risus praesent potenti sollicitudin venenatis pellentesque neque, tempor fusce arcu scelerisque, amet a eu, quis mattis ante phasellus pede, ante massa justo. Ut vehicula elit magna vel, ullamcorper mi sed duis. Vitae eget in faucibus, vulputate orci lorem sodales risus vel leo, posuere ligula ligula. Leo mattis pellentesque, suscipit turpis ridiculus amet pretium molestie, aptent urna nunc vehicula sociosqu vitae, at pellentesque sit nulla ac, et sed pellentesque. Dolor wisi, ultrices turpis lacus, lorem eros in tempus ad, mauris sit mauris elit eleifend consectetuer nisl.
         
       </p>
-        <img src="images/Franklin.jpeg" alt="Franklin from above">
-		</article>		  
+        <img src="images/Rain.jpeg" alt="Raining in Springfield">
+		</div>		  
   
   </main>
     
@@ -138,7 +154,7 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/franklindata.js"></script>
+    <script src="scripts/springfielddata.js"></script>
 
 </body>
 </html>
