@@ -276,4 +276,23 @@ body {
 	color:inherit;
 }
 
+.lessons {
+    float: right;
+    padding: 5px;
+}
+
+.lessons li {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.lessons li a {
+    color: red;
+}
+
+.lessons li a:hover {
+    color: green;
+}
+
 
