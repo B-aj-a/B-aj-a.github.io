@@ -1,0 +1,36 @@
+{
+    "services": [
+        {
+            "tuneup1": "$39.00",
+            "tuneup2": "$45.99",
+            "stuneup": "$80.00",
+            "repair": 4,
+            "events": [
+                "Continental Divide Race",
+                "Local Event"
+            ]
+        },
+        {
+            "flat": "$20.00",
+            "twheel": "$40.00",
+            "ispoke": "45.00",
+            "repair": 5,
+            "events": [
+                "Continental Divide Race",
+                "Local Event"
+            ]
+
+            },
+        {
+            "bleed": "$14.99",
+            "chain": "$14.99",
+            "shifter": "$13.00",
+            "repair": 17,
+            "events": [
+                "Continental Divide Race",
+                "Local Event"
+            ]
+
+        }
+    ]
+}

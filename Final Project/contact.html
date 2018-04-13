@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    
+    <head>
+        
+        <title>The Mountain Spoke | Home</title>
+        
+        <meta charset='utf-8'/>
+        
+        <link type='text/css' rel='stylesheet' href='style/smallstyle.css'/>
+        
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Ubuntu" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            
+            <figure calss='logo'>
+            
+                <img src='images/Mountain-Spoke-Logo-4.png' alt='Montain Spoke logo'>
+            
+            </figure>
+            
+            <nav>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="nav" class="hide">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='sales.html'>Sales</a></li>
+                    <li><a href='service.html'>Service</a></li>
+                    <li><a href='adventures.html'>Adventures</a></li>
+                    <li><a href='events.html'>Events</a></li>
+                    <li><a class='active' href='contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <main>
+            
+            <h1>Contact Us</h1>
+            
+            <section>
+                
+                <form action='https://b-aj-a.github.io/Assignments/lesson-8/thanks.html' method='post' enctype='multipart/form-data' name='stormCenter' id='stormform'>
+          
+                    <fieldset>
+
+                        <legend>Personal Info</legend>
+
+                        <label><span>Full Name: </span><input name='fullname' type='text' value='' placeholder='Nathan Test' pattern='[a-zA-Z -._]{2,99}' required></label>
+
+                        <label><span>Email: </span><input name='email' type='email' value='' placeholder='example@example.com'></label>
+
+                        <label><span>Phone Number: </span><input name='phone' type='tel' value='' placeholder='1234567890' pattern='[0-9]{10,20}' required></label>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Comments</legend>
+
+                        <label><span>Additional information or comments: </span><textarea name='message' rows='10' cols='48'></textarea> </label>
+
+                    </fieldset>
+
+                    <input type='submit' value='Submit Info' class='button'>
+                    <input type='hidden' value='Storm Center Submission' name='subject'>
+                    <input name='redirect' type='hidden' value='thanks.html'>
+          
+                </form> 
+                
+            </section>
+            
+            <div>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.7122610360466!2d-111.09290618421784!3d45.67227662755557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e1!3m2!1sen!2sus!4v1523645339965" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                
+            </div>
+            
+        </main>
+        
+        <footer>
+            
+            <section>
+            
+                <p>The Mountain Spoke</p>
+
+                <p>3950 Valley Commons Dr</p>
+
+                <p>Bozeman, MT</p>
+
+                <p>(000) 000-0000</p>
+
+                <p>Contact@MountainSpoke.com</p>
+
+                <p>© 2018 | The Mountain Spoke | Mar, 23</p>
+            
+            </section>
+                
+            <ul>
+                <li><a href='contact.html'>Resources</a></li>
+                <li><a href='contact.html'>Overview Video</a></li>
+            </ul>
+            
+        </footer>
+        
+        <script src="scripts/hamburger.js"></script>
+        
+    </body>
+    
+</html>
