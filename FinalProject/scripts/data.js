@@ -8,7 +8,7 @@ xmlhttp.onreadystatechange = function () {
         var tuneup2 = $('#tuneup2').text(myObj.services[0].tuneup2);
         var supreme = $('#supreme').text(myObj.services[0].supreme);
 
-        var flat = $('#flat').text(myObj.services[1].bflat);
+        var flat = $('#flat').text(myObj.services[1].flat);
         var truewheel = $('#truewheel').text(myObj.services[1].truewheel);
         var spoke = $('#spoke').text(myObj.services[1].spoke);
 
