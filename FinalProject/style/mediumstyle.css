@@ -1,12 +1,14 @@
-@media only screen and (max-width: 37.5em) {
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+    
+* {box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
     header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
       /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 
-        max-width: 600px;
+        max-width: 1024pxpx;
         margin-left:auto;
         margin-right:auto;
     }
@@ -38,35 +40,36 @@
     
 /*-----------Nav------------*/
 
-    nav button {
-        margin: 2%;
-        background-color: transparent;
-        border: none;
-        font-size: 1.6rem;
-        color: #FF5335;
-    }
-
     nav {
         background-color: #B29C85;
         font-family: 'Archivo Black', sans-serif;
         border-top: 3px solid #FF5335;
         border-bottom: 3px solid #FF5335;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15px;
+        height: 60px;
     }
-
+    
     nav ul {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        display: flex;
         list-style-type: none;
         padding: 0;
         margin: 0;    
     }
-
+    
     nav ul li a {
-        display: block;
-        padding: .8rem 2%;
+        margin: 10px;
+        font-size: 25px;
         text-align: center;
         text-decoration: none;
         color: #306E73;
-        border-top: solid rgba(0,0,0,0.3)
     }
+    
 
     nav ul li.active a:active {
         color: #FF5335;
@@ -75,11 +78,6 @@
     nav ul li a:hover {
         color: #FF5335;
     }
-
-    nav ul.hide{
-        display: none;
-    }
-
     
 /*-----------Main-----------*/
     main {
@@ -174,7 +172,6 @@
         width: 400px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 20px;
     }
     
     main label {
@@ -308,5 +305,3 @@ dark blue: #1D181F
 main font: #D6C5B3
 
 */
-
-  

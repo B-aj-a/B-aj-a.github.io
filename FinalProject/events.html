@@ -10,6 +10,8 @@
         
         <link type='text/css' rel='stylesheet' href='style/smallstyle.css'/>
         
+        <link type='text/css' rel='stylesheet' href='style/mediumstyle.css'/>
+        
         <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Ubuntu" rel="stylesheet">
         
     </head>
@@ -46,41 +48,45 @@
             
                 <h2>Cycle the Continental Divide</h2>
                 
-                <p>Join us on our grand event, Cycle the Continental Divide! This is an intermediate ride that will take all of the skill you have! 100 miles of some of the most challenging mountain biking trails we have to offer. For $150 you too cna join us on this grand event! We require proper mountain biking gear along with the ability to preform basic repairs along the trail. We provide camp grounds you cna stay at and a dinner the night after the event. Please brign your own cmaping gear and make sure you are well prepared for this event! Ages 18 and up please as this is a bit more challenging event and we want to make sure eveyone is safe and has fun!</p>
+                <p class='p2'>Join us on our grand event, Cycle the Continental Divide! This is an intermediate ride that will take all of the skill you have! 100 miles of some of the most challenging mountain biking trails we have to offer. For $150 you too cna join us on this grand event! We require proper mountain biking gear along with the ability to preform basic repairs along the trail. We provide camp grounds you cna stay at and a dinner the night after the event. Please brign your own cmaping gear and make sure you are well prepared for this event! Ages 18 and up please as this is a bit more challenging event and we want to make sure eveyone is safe and has fun!</p>
                 
             </section>
             
-            <form action='https://b-aj-a.github.io/Assignments/lesson-8/thanks.html' method='post' enctype='multipart/form-data' name='stormCenter' id='stormform'>
-          
-                    <fieldset>
+            <section>
+            
+                <form action='https://b-aj-a.github.io/Assignments/lesson-8/thanks.html' method='post' enctype='multipart/form-data' name='stormCenter' id='stormform'>
 
-                        <legend>Personal Info</legend>
+                        <fieldset>
 
-                        <label><span>Full Name: </span><input name='fullname' type='text' value='' placeholder='Nathan Test' pattern='[a-zA-Z -._]{2,99}' required></label>
+                            <legend>Personal Info</legend>
 
-                        <label><span>Email: </span><input name='email' type='email' value='' placeholder='example@example.com'></label>
+                            <label><span>Full Name: </span><input name='fullname' type='text' value='' placeholder='Nathan Test' pattern='[a-zA-Z -._]{2,99}' required></label>
 
-                        <label><span>Phone Number: </span><input name='phone' type='tel' value='' placeholder='1234567890' pattern='[0-9]{10,20}' required></label>
-                        
-                        <label><span>Date of Birth: </span><input name='dob' type='date' value='' placeholder='mm/dd/yy' required></label>
-                        
-                        <label><span>State / Country: </span><input name='place' type='text' value='' placeholder='State / Country' required></label>
+                            <label><span>Email: </span><input name='email' type='email' value='' placeholder='example@example.com'></label>
 
-                    </fieldset>
+                            <label><span>Phone Number: </span><input name='phone' type='tel' value='' placeholder='1234567890' pattern='[0-9]{10,20}' required></label>
 
-                    <fieldset>
+                            <label><span>Date of Birth: </span><input name='dob' type='date' value='' placeholder='mm/dd/yy' required></label>
 
-                        <legend>Comments</legend>
+                            <label><span>State / Country: </span><input name='place' type='text' value='' placeholder='State / Country' required></label>
 
-                        <label><span>Additional information or comments: </span><textarea name='message' rows='10' cols='48'></textarea> </label>
+                        </fieldset>
 
-                    </fieldset>
+                        <fieldset>
 
-                    <input type='submit' value='Submit Info' class='b2'>
-                    <input type='hidden' value='Storm Center Submission' name='subject'>
-                    <input name='redirect' type='hidden' value='thanks.html'>
-          
-                </form>
+                            <legend>Additional Info</legend>
+
+                            <label><span>Additional needs or comments: </span><textarea name='message' rows='10' cols='48'></textarea> </label>
+
+                        </fieldset>
+
+                        <input type='submit' value='Signup Now!' class='b2'>
+                        <input type='hidden' value='Storm Center Submission' name='subject'>
+                        <input name='redirect' type='hidden' value='thanks.html'>
+
+                    </form>
+                
+                </section>
             
         </main>
         
