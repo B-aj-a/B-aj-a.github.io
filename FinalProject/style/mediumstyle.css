@@ -8,7 +8,7 @@
     header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
       /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 
-        max-width: 1024pxpx;
+        max-width: 1024px;
         margin-left:auto;
         margin-right:auto;
     }
@@ -128,6 +128,35 @@
         margin-bottom: 5px;
     }
     
+    .maincontent {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .salescontent {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
+    .adventurecontent {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
+    .eventcontent {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
+    .contactcontent {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
     .bike1 {
         width: 100%;
         margin-left: auto;
@@ -148,7 +177,8 @@
         background-color: #B29C85;
         margin-left: auto;
         margin-right: auto;
-        
+        width: 120px;
+        height: 30px;
         border-radius: 50px 50px 50px 50px;
     }
     
@@ -208,11 +238,11 @@
     
     table {
         text-align: center;
-        width: 400px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     table th {
